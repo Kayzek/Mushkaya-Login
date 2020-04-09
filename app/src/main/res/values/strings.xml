@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mushkaya</string>
+    <string name="hint_user">Nombre de Usuario</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="dont_have_account">¿No tienes cuenta?</string>
+    <string name="create_here">Crea una aqui.</string>
+    <string name="hint_email">Correo Electronico</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_confirm_pass">Confirmar Contraseña</string>
+    <string name="join">Unirse</string>
+    <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
+</resources>

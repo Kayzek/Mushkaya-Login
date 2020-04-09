@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mushkaya</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Dont have account?</string>
+    <string name="create_here">Create here.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_confirm_pass">Confirm Password</string>
+    <string name="join">Unirse</string>
+    <string name="toolbar_tittle_createaccount">Create Account</string>
+</resources>
