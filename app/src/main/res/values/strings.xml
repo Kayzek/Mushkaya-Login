@@ -10,4 +10,8 @@
     <string name="hint_confirm_pass">Confirmar Contraseña</string>
     <string name="join">Unirse</string>
     <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
+    <string name="username_card">Carlos Calero</string>
+    <string name="firstword_card">Hace</string>
+    <string name="timecard_card">1 semana</string>
+    <string name="likenumbercard_card">10 Me Gusta</string>
 </resources>
