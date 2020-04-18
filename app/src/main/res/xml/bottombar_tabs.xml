@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/search"
+        tittle="@string/tab_search"
+        icon="@drawable/search"
+        />
+
+    <tab
+        id="@+id/home"
+        tittle="@string/tab_home"
+        icon="@drawable/home"
+        />
+
+    <tab
+        id="@+id/profile"
+        tittle="@string/tab_profile"
+        icon="@drawable/profile"
+        />
+</tabs>

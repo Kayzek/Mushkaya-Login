@@ -14,4 +14,10 @@
     <string name="firstword_card">Hace</string>
     <string name="timecard_card">1 semana</string>
     <string name="likenumbercard_card">10 Me Gusta</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_profile">Yo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
