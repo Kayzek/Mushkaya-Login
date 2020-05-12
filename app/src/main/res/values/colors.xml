@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#5d4037</color>
     <color name="colorAccent">#ffeb3b</color>
     <color name="backgroundtext_card">#53292929</color>
+
+    <color name="naranja">#FF9966</color>
+    <color name="verde">#66CDAA</color>
+    <color name="azul">#2E2EFE</color>
+
 </resources>

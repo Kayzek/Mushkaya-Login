@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    tools:context="view.fragment.Search_Blue">
+
+    <TextView
+        android:id="@+id/txtblue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:background="@color/azul"
+        android:text="@string/azul"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_username_card"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imagen_blue"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/fondo2"/>
+</LinearLayout>
+

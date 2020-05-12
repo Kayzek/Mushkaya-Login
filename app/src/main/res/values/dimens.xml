@@ -13,4 +13,15 @@
     <dimen name="bottombar_height">70dp</dimen>
     <dimen name="padding_vertical">32dp</dimen>
     <dimen name="margin_floating_buttom">15dp</dimen>
+    <dimen name="appbar_height_layout">255dp</dimen>
+    <dimen name="toolbar_height_detail">55dp</dimen>
+    <dimen name="textsize_username_size_detail">25sp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="paddigtop_detail">20dp</dimen>
+    <dimen name="image_circle_profile">160dp</dimen>
+    <dimen name="margintop_circleimage">30dp</dimen>
+    <dimen name="elevation_circleimage">10dp</dimen>
+    <dimen name="limitY_circleimage">-190dp</dimen>
+    <dimen name="margintoptoolbar_circle_profile">-5dp</dimen>
+    <dimen name="width_circleimagetoolbar">40dp</dimen>
 </resources>

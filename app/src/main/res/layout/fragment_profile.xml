@@ -1,13 +1,81 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
     tools:context="view.fragment.ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.PopupOverlay">
+        
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:statusBarScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="200dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/username_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_card"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/activity_vertical_margin">
+                </TextView>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height_detail"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/picture_profile_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingLeft="@dimen/padding_horizontal_login"
+        android:paddingRight="@dimen/padding_horizontal_login"
+        android:paddingTop="@dimen/padding_horizontal_login"/>
 
-</FrameLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/image_circle_profile"
+        android:layout_height="@dimen/image_circle_profile"
+        android:src="@drawable/imagen_perfil"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/margintop_circleimage"
+        android:elevation="@dimen/elevation_circleimage"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appbar_profile"
+        app:dependType="y"
+        app:dependTargetY="@dimen/limitY_circleimage"
+        app:targetX="@dimen/margintoptoolbar_circle_profile"
+        app:targetY="@dimen/margintoptoolbar_circle_profile"
+        app:targetWidth="@dimen/width_circleimagetoolbar"
+        app:targetHeight="@dimen/width_circleimagetoolbar"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

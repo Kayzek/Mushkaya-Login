@@ -20,4 +20,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transitionname_picture">transitionName</string>
+    <string name="secondword_detail">Me Gusta</string>
+    <string name="tittle_image_detail">Lorem Ipsum</string>
+    <string name="lorem">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lorem eu semper pulvinar. Praesent lobortis convallis porta. Mauris nunc lacus, vehicula nec magna et, tempor elementum ipsum. Quisque et mi et eros cursus commodo. Integer vel massa tortor. Sed tempor at massa vitae lacinia. Sed sodales elementum velit, tincidunt commodo ipsum consectetur non. Nulla massa lorem, malesuada in faucibus at, tristique eget erat. Donec eu tempus leo. Proin a vehicula leo. Aenean nec luctus tortor, vitae rutrum lectus. Mauris vitae nibh augue. Nulla vitae ligula eu lacus sagittis vestibulum. In ac orci a lacus interdum aliquam. Etiam vestibulum sem eget lacus ullamcorper convallis. Mauris eros nulla, tincidunt at quam id, aliquet tristique justo. "</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="naranja">Naranja</string>
 </resources>

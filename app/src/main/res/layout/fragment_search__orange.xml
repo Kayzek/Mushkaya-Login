@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    tools:context="view.fragment.Search_Orange">
+
+    <TextView
+        android:id="@+id/txtorange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:background="@color/naranja"
+        android:text="@string/naranja"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_username_card"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imagen_orange"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/fondo3"/>
+</LinearLayout>
